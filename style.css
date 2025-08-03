@@ -241,7 +241,6 @@ main {
 .feature {
   padding: var(--space-700) 0 0 0;
   position: relative;
-  padding-bottom: var(--space-1400);
 }
 .feature__list {
   display: flex;
@@ -290,6 +289,7 @@ main {
 .founder-message {
   text-align: center;
   background-color: #fff;
+  padding-top: var(--space-1400);
 }
 .founder-message__image-wrapper img {
   display: inline-block;
@@ -416,7 +416,7 @@ footer {
 
 @media screen and (min-width: 64rem) {
   .main-grid {
-    grid-template-columns: minmax(2.5rem, 1fr) repeat(10, minmax(0, 120px)) minmax(
+    grid-template-columns: minmax(2.5rem, 1fr) repeat(10, minmax(0, 96px)) minmax(
         2.5rem,
         1fr
       );
