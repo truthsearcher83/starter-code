@@ -153,9 +153,6 @@ button {
 .button--blue {
   background-color: var(--clr-primary-900);
 }
-.buton-pink {
-  background-color: var(--clr-accent-600);
-}
 
 /*Header*/
 .header {
@@ -424,8 +421,15 @@ footer {
   .header::before {
     background: url("assets/images/bg-pattern-1.svg") no-repeat center / contain;
   }
+  .header__image-wrapper {
+    top: 102%;
+  }
   .header__image {
     width: 715px;
+  }
+
+  .feature {
+    padding: var(--space-600) 0;
   }
 
   .feature__list {
@@ -439,6 +443,9 @@ footer {
   }
   .feature__list-item > * {
     grid-column: 1/-1;
+  }
+  .founder-message {
+    padding-top: var(--space-600);
   }
 
   .founder-message__content {
